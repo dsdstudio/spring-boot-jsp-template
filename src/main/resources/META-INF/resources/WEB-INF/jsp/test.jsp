@@ -13,5 +13,8 @@
 <html>
 <body>
     <h1>Hello World </h1>
+    <!-- jsp include는 항상 relative path를 사용해야합니다 -->
+    <%@include file="t.jsp"%>
+    <script src="common.js"></script>
 </body>
 </html>
